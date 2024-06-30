@@ -1,0 +1,176 @@
+// .home {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 20px;
+
+//   }
+  
+//   video {
+//     width: 100%;
+//     max-width: 600px;
+//     border: 2px solid #ddd;
+//     border-radius: 10px;
+//     margin-bottom: 20px;
+//   }
+  
+
+
+// button {
+//   background-color: #007bff;
+//   color: white;
+//   border: none;
+//   padding: 10px 20px;
+//   margin-top: 20px;
+//   cursor: pointer;
+//   font-size: 16px;
+//   border-radius: 5px;
+// }
+
+// button:hover {
+//   background-color: #0056b3;
+// }
+
+
+// .home {
+//   padding: 20px;
+// }
+
+// .home h1 {
+//   text-align: center;
+// }
+
+// .home button {
+//   display: block;
+//   margin: 0 auto 20px;
+// }
+
+// .content {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+// .content > div {
+//   width: 48%;
+// }
+
+// .cart {
+//   border: 1px solid #ddd;
+//   padding: 20px;
+//   margin-top: 20px;
+// }
+
+// .cart h2 {
+//   margin-top: 0;
+// }
+
+// .cart table {
+//   width: 100%;
+//   border-collapse: collapse;
+// }
+
+// .cart th,
+// .cart td {
+//   border: 1px solid #ddd;
+//   padding: 8px;
+//   text-align: left;
+// }
+
+// .cart th {
+//   background-color: #f4f4f4;
+// }
+
+// .cart tbody tr:nth-child(even) {
+//   background-color: #f9f9f9;
+// }
+
+// .cart p {
+//   text-align: center;
+//   color: #999;
+// }
+
+
+
+.home {
+  padding: 20px;
+}
+
+.home h1 {
+  text-align: center;
+}
+
+.home button {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content > div {
+  width: 48%;
+}
+
+.cart {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart th,
+.cart td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.cart th {
+  background-color: #f4f4f4;
+}
+
+.cart tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.cart p {
+  text-align: center;
+  color: #999;
+}
+
+.pay-now-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pay-now-button:hover {
+  background-color: #0056b3;
+}
+
+.qr-code {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qr-code p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
