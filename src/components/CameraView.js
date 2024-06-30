@@ -97,11 +97,25 @@ const CameraView = ({ updateCart }) => {
       const dataURL = canvas.toDataURL('image/jpeg');
 
       try {
-        const response = await axios.post('/api/detect', { image: dataURL }, {
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        });
+         const response = await axios({
+        method: "POST",
+        url: "https://detect.roboflow.com/billing-system/2",
+        params: {
+            api_key: "CSC6NWlRmHGQf2qUVPIL"
+        },
+        data: dataURL,
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        }}
+    );
+    console.log(response.data);
+    // res.json(response.data);
+
+        // const response = await axios.post('/api/detect', { image: dataURL }, {
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+        // });
         const detectedObjects = response.data.predictions;
         
         // this is demo prediction
