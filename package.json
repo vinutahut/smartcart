@@ -1,7 +1,7 @@
 {
   "homepage": "https://vinutahut.github.io/smartcart",
   "name": "smart-cart",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "proxy": "http://localhost:3000",
   "dependencies": {
